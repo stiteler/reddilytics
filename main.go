@@ -16,6 +16,6 @@ func main() {
 		update.UpdateAll()
 
 		//once an hour?
-		time.Sleep(time.Day)
+		time.Sleep(time.Hour*24)
 	}
 }
